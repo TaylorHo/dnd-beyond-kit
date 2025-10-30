@@ -65,7 +65,7 @@ We use the same `manifest.json` for both platforms.
 |  Brazilian Portuguese (Português)  |  [TaylorHo](https://github.com/taylorho), [San](mailto:pedromussipereira@gmail.com), [susdw](mailto:carloscvgnl@gmail.com) and [Emival Silva](mailto:emival@gmail.com)  |
 |  Spanish (Español)                 |  [MrProditio](https://github.com/MrProditio), [Eltrio723](https://github.com/Eltrio723), [Júlia Nogales](mailto:julianolo71@gmail.com), [CookieCrushed](mailto:cookiecrushed18@gmail.com), GhettoMonkey, Hector C. and Serph  |
 |  Italian (Italiano)                |  [Gabriele](mailto:we@improve.games), [bembe83](https://github.com/bembe83) and [Il Rich](mailto:il.rich@outlook.com)  |
-|  French (Français)                 |  [vgauther](https://github.com/vgauther), [Ins0mniakk](https://github.com/Ins0mniakk), [Saturnin](saturnin@mailibre.fr), [knard](mailto:wotan@knard.be) and Forteleone  |
+|  French (Français)                 |  [vgauther](https://github.com/vgauther), [Ins0mniakk](https://github.com/Ins0mniakk), [Saturnin](saturnin@mailibre.fr), [knard](mailto:wotan@knard.be), [savoiet](mailto:savoiet@outlook.com) and Forteleone  |
 |  German (Deutsch)                  |  [JulianPrieber](https://github.com/JulianPrieber), [Wilms](mailto:philip.jakob.leopold.wilms@gmail.com), [Catdcast3r](mailto:cardcast3r@gmail.com), [fLowBop](mailto:vincentweber1988@gmail.com), Martin, ash, JRK and Naxras  |
 |  Czech (Čeština)                   |  [mlynarp](https://github.com/mlynarp) and Netleak  |
 |  Japanese (日本語)                  |  [lill-la](https://github.com/lill-la), [Shun Matsuba](https://x.com/fraulein_trpg), [SaitoJohn](https://github.com/SaitoJohn) and [フロイラ](mailto:matsuba0721.ggl@gmail.com)  |
