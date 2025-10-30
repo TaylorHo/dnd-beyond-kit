@@ -8,8 +8,6 @@ const convertToSiInputElement = document.getElementById('convertToSiInput');
 const cleanInterfaceInput = document.getElementById('cleanInterfaceInput');
 const sendMissingTranslations = document.getElementById('periodicallySendMissingTranslationsInput');
 const leaveAReviewLink = document.getElementById('leaveAReview');
-const arcanaPixelCta = document.getElementById('arcana-pixel-cta');
-const closeArcanaPixelCta = document.querySelector('.arcana-pixel-cta .close-btn');
 
 if (languageSelectorElement) languageSelectorElement.addEventListener('change', async (event) => {
   currentBrowser.storage.local.set({ "language": event.target.value });
@@ -31,13 +29,6 @@ if (sendMissingTranslations) sendMissingTranslations.addEventListener('change', 
   await reloadPage();
 });
 
-if (closeArcanaPixelCta) closeArcanaPixelCta.addEventListener('click', async (event) => {
-  event.preventDefault();
-  event.stopPropagation();
-  arcanaPixelCta.classList.add('d-none');
-  currentBrowser.storage.local.set({ "hideArcanaCta": 0 });
-});
-
 (async () => {
   const convertToSiState = await currentBrowser.storage.local.get("convertUnits").then((result) => {
     return result.convertUnits ?? true;
@@ -53,17 +44,6 @@ if (closeArcanaPixelCta) closeArcanaPixelCta.addEventListener('click', async (ev
 
   const selectedLanguage = await currentBrowser.storage.local.get("language").then((result) => {
     return result.language ?? "en-us";
-  });
-
-  await currentBrowser.storage.local.get("hideArcanaCta").then((result) => {
-    const hideArcanaCtaCount = parseInt(result.hideArcanaCta ?? "0");
-
-    if (hideArcanaCtaCount < 15) {
-      currentBrowser.storage.local.set({ "hideArcanaCta": hideArcanaCtaCount + 1 });
-      return;
-    }
-
-    if (arcanaPixelCta) arcanaPixelCta.classList.remove('d-none');
   });
 
   if (languageSelectorElement) languageSelectorElement.value = selectedLanguage;

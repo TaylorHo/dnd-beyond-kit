@@ -84,14 +84,7 @@ function translateTextInElements(parentElement) {
 
           let translatedWord = translateWord(originalWord);
           translatedString = translatedString.replace(originalWord, translatedWord);
-
-          if (!isTranslatedString(translatedWord)) {
-            untranslatedContent.push(translatedWord);
-          }
         });
-      } else if (!isTranslatedString(originalText)) {
-        if (originalText.length === 1) return;
-        untranslatedContent.push(originalText);
       }
     }
     element.textContent = translatedString;
@@ -99,7 +92,6 @@ function translateTextInElements(parentElement) {
     // mark so we don't touch it again
     element.parentElement.dataset.bkDone = "1";
   });
-  getUntranslatedContent(untranslatedContent); // Defined in ./checkMissingTranslations.js
 }
 
 // Replaces dice notation (e.g., 1d4, 2d8) with localized versions
@@ -136,12 +128,6 @@ function translateWord(word) {
   }
 
   return word;
-}
-
-function isTranslatedString(word) {
-  let isTranslated = Object.values(dictionary).some((translation) => translation.replaceAll('.', "").toLowerCase() === word.replaceAll('.', "").toLowerCase());
-
-  return isTranslated;
 }
 
 function getTextNodes(parentElement) {
