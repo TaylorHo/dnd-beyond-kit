@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://dnd-beyond-kit.hotay.dev" target="_blank"><img src="https://raw.githubusercontent.com/TaylorHo/dnd-beyond-kit/main/website/dice.svg" width="80" alt="d20 dice" /></a>
+  <a href="https://dnd-beyond-kit.hoffmann.io" target="_blank"><img src="https://raw.githubusercontent.com/TaylorHo/dnd-beyond-kit/main/website/dice.svg" width="80" alt="d20 dice" /></a>
   <h1>D&D Beyond Kit</h1>
 </div>
 
-- [Website](https://dnd-beyond-kit.hotay.dev)
+- [Website](https://dnd-beyond-kit.hoffmann.io)
 - [Link for Chrome Web Store](https://chromewebstore.google.com/detail/dd-beyond-kit/gdpopbkamfkkenkillfnocgljokkcopg?utm_source=github)
 - [Link for Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/dnd-beyond-kit/?utm_source=github)
-- [Translation Tool (Help us translating!)](https://dnd-beyond-kit.hotay.dev/translate)
+- [Translation Tool (Help us translating!)](https://dnd-beyond-kit.hoffmann.io/translate)
 
 ### This extension is used to:
 
@@ -39,11 +39,11 @@ Currently we have translations to the following languages:
 - Turkish (Türkçe)
 - Korean (한국어)
 
-Want to help us translating D&D Beyond content? We created a [Translation Tool](https://dnd-beyond-kit.hotay.dev/translate) to make this process easier!!
+Want to help us translating D&D Beyond content? We created a [Translation Tool](https://dnd-beyond-kit.hoffmann.io/translate) to make this process easier!!
 
 ### Contributing
 
-To **edit the current existent translations or to translate more content** from the languages that we currently support, have a look at out [Translation Tool](https://dnd-beyond-kit.hotay.dev/translate).
+To **edit the current existent translations or to translate more content** from the languages that we currently support, have a look at out [Translation Tool](https://dnd-beyond-kit.hoffmann.io/translate).
 
 You can also manually help us translating the content by editing the JSON files located in `translations/` folder.
 To do this manually, just add the text you want to edit/translate in lowercase as the **key** of the JSON, and the translate text as the **value** of the JSON.
@@ -51,7 +51,7 @@ To do this manually, just add the text you want to edit/translate in lowercase a
 If you **want to add a new language**, then you can create a new JSON file in the `translations/` folder, with the name lik `<lang>-<country_code>.json`, for example: Brazilian Portuguese is called `pt-br.json`.
 in this case we need also to add this configuration to the `popup/popup.html` file and to `manifest.json`. For more details, [open an Issue](https://github.com/TaylorHo/dnd-beyond-kit/issues/new) and we will help you in this process.
 
-For simplicity you can also [add a new language by our web tool, clicking here](https://dnd-beyond-kit.hotay.dev/translate) and clicking in the _"Add new Language"_ button.
+For simplicity you can also [add a new language by our web tool, clicking here](https://dnd-beyond-kit.hoffmann.io/translate) and clicking in the _"Add new Language"_ button.
 
 ### Browser support
 
