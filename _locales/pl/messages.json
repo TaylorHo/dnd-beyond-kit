@@ -4,43 +4,43 @@
     "description": "Title of the extension"
   },
   "choose_language": {
-    "message": "Elija su idioma de la lista a continuación:",
+    "message": "Wybierz język z poniższej listy:",
     "description": "Language to be used on the translation"
   },
   "choose_language_option": {
-    "message": "Elija su idioma",
+    "message": "Wybierz język",
     "description": "Default option of language"
   },
   "backToTop": {
-    "message": "Volver arriba",
+    "message": "Wróć na górę",
     "description": "Button to scroll to the top of page"
   },
   "convertToSI": {
-    "message": "Convertir medidas a SI",
+    "message": "Konwertuj pomiary do SI",
     "description": "Toggle the International Metrics System"
   },
   "settingsTitle": {
-    "message": "Ajustes",
+    "message": "Ustawienia",
     "description": "Title of Settings tab"
   },
   "moreSettingsQuestion": {
-    "message": "¿Necesitas más configuraciones? ¡Solicítelo en GitHub!",
+    "message": "Potrzebujesz dodatkowej konfiguracji? Zgłoś to na GitHubie!",
     "description": "More configurations message to GitHub"
   },
   "cleanInterface": {
-    "message": "Elimina las distracciones de la interfaz",
+    "message": "Usuń elementy rozpraszające z interfejsu",
     "description": "Remove distractions from the interface"
   },
   "likingInterface": {
-    "message": "Viajero, ¿te está gustando la extensión?",
+    "message": "Podróżniku, podoba ci się rozszerzenie?",
     "description": "Question to the user if they like the extension"
   },
   "leaveAReview": {
-    "message": "¡Deja tu evaluación!",
+    "message": "Zostaw swoją ocenę!",
     "description": "Ask the user to leave a review"
   },
   "helpUsTranslating": {
-    "message": "¡Ayúdanos a traducir D&D Beyond!",
+    "message": "Pomóż nam przetłumaczyć D&D Beyond!",
     "description": "Help us translating D&D Beyond"
   }
 }

@@ -31,10 +31,6 @@
     "message": "Убрать отвлекающие факторы из интерфейса",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "Помочь в обнаружении недостающих переводов",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "Путник, по душе ли вам расширение?",
     "description": "Question to the user if they like the extension"

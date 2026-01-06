@@ -31,10 +31,6 @@
     "message": "画面をすっきりさせる",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "未翻訳箇所を検出しやすくする",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "冒険者よ、拡張機能を楽しんでいるかい？",
     "description": "Question to the user if they like the extension"

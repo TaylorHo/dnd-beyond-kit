@@ -31,10 +31,6 @@
     "message": "清除介面",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "幫助檢查缺失的翻譯",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "旅行者，享受拓展嗎？",
     "description": "Question to the user if they like the extension"

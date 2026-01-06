@@ -31,10 +31,6 @@
     "message": "인터페이스에서 방해 요소 제거",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "누락된 번역 감지 도움",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "모험가님, 확장 프로그램이 마음에 드시나요?",
     "description": "Question to the user if they like the extension"
