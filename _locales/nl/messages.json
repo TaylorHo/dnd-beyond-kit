@@ -31,10 +31,6 @@
     "message": "Ruim afleidingen op van de interface",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "Help met het detecteren van missende vertalingen",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "Reiziger, geniet je van de extensie?",
     "description": "Question to the user if they like the extension"

@@ -6,7 +6,6 @@ const firefoxExtensionLink = "https://addons.mozilla.org/en-US/firefox/addon/dnd
 const languageSelectorElement = document.getElementById('languageSelect');
 const convertToSiInputElement = document.getElementById('convertToSiInput');
 const cleanInterfaceInput = document.getElementById('cleanInterfaceInput');
-const sendMissingTranslations = document.getElementById('periodicallySendMissingTranslationsInput');
 const leaveAReviewLink = document.getElementById('leaveAReview');
 
 if (languageSelectorElement) languageSelectorElement.addEventListener('change', async (event) => {
@@ -24,11 +23,6 @@ if (cleanInterfaceInput) cleanInterfaceInput.addEventListener('change', async (e
   await reloadPage();
 });
 
-if (sendMissingTranslations) sendMissingTranslations.addEventListener('change', async (event) => {
-  currentBrowser.storage.local.set({ "sendMissingTranslations": event.target.checked });
-  await reloadPage();
-});
-
 (async () => {
   const convertToSiState = await currentBrowser.storage.local.get("convertUnits").then((result) => {
     return result.convertUnits ?? true;
@@ -38,10 +32,6 @@ if (sendMissingTranslations) sendMissingTranslations.addEventListener('change', 
     return result.cleanInterface ?? true;
   });
 
-  const sendMissingTranslationsState = await currentBrowser.storage.local.get("sendMissingTranslations").then((result) => {
-    return result.sendMissingTranslations ?? false; // Deactivated by default
-  });
-
   const selectedLanguage = await currentBrowser.storage.local.get("language").then((result) => {
     return result.language ?? "en-us";
   });
@@ -49,7 +39,6 @@ if (sendMissingTranslations) sendMissingTranslations.addEventListener('change', 
   if (languageSelectorElement) languageSelectorElement.value = selectedLanguage;
   if (convertToSiInputElement) convertToSiInputElement.checked = convertToSiState;
   if (cleanInterfaceInput) cleanInterfaceInput.checked = cleanInterfaceState;
-  if (sendMissingTranslations) sendMissingTranslations.checked = sendMissingTranslationsState;
   if (leaveAReviewLink) leaveAReviewLink.href = typeof chrome === 'undefined' ? firefoxExtensionLink : chromeExtensionLink;
 })();
 

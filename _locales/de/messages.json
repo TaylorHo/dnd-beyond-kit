@@ -31,10 +31,6 @@
     "message": "Klare Ablenkungen durch die Benutzeroberfläche",
     "description": "Remove distractions from the interface"
   },
-  "periodicallySendMissingTranslations": {
-    "message": "Unübersetzte Texte erkennen helfen",
-    "description": "Help detect missing translations"
-  },
   "likingInterface": {
     "message": "Abenteurer, gefällt dir die Erweiterung?",
     "description": "Question to the user if they like the extension"

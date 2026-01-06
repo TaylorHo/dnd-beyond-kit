@@ -38,6 +38,7 @@ Currently we have translations to the following languages:
 - Traditional Chinese (繁體中文)
 - Turkish (Türkçe)
 - Korean (한국어)
+- Polish (Polski)
 
 Want to help us translating D&D Beyond content? We created a [Translation Tool](https://dnd-beyond-kit.hoffmann.io/translate) to make this process easier!!
 
@@ -73,7 +74,8 @@ We use the same `manifest.json` for both platforms.
 |  Russian (Русский)                 |  [MarouchX](mailto:noraundyne@gmail.com)  |
 |  Traditional Chinese (繁體中文)     |  anonymous  |
 |  Turkish (Türkçe)                  |  [Erozbey](mailto:erozbey1@gmail.com)  |
-|  Korean (한국어)                   |  Hwanya  |
+|  Korean (한국어)                    |  Hwanya  |
+|  Polish (Polski)                   |  [MaTeoSky](https://github.com/MatteDeb)  |
 
 ### Thanks
 
