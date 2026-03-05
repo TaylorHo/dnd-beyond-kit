@@ -72,7 +72,7 @@ We use the same `manifest.json` for both platforms.
 |  Japanese (日本語)                  |  [lill-la](https://github.com/lill-la), [Shun Matsuba](https://x.com/fraulein_trpg), [SaitoJohn](https://github.com/SaitoJohn) and [フロイラ](mailto:matsuba0721.ggl@gmail.com)  |
 |  Dutch (Nederlands)                |  [Disispower](https://github.com/Disispower) and Woodychopper  |
 |  Russian (Русский)                 |  [MarouchX](mailto:noraundyne@gmail.com) and Fedor  |
-|  Traditional Chinese (繁體中文)     |  anonymous  |
+|  Traditional Chinese (繁體中文)     |  [Sola](mailto:mages.cauldron@gmail.com)  |
 |  Turkish (Türkçe)                  |  [Erozbey](mailto:erozbey1@gmail.com)  |
 |  Korean (한국어)                    |  Hwanya  |
 |  Polish (Polski)                   |  [MaTeoSky](https://github.com/MatteDeb)  |
