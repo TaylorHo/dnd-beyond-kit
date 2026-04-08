@@ -67,12 +67,12 @@ We use the same `manifest.json` for both platforms.
 |  Spanish (Español)                 |  [MrProditio](https://github.com/MrProditio), [Eltrio723](https://github.com/Eltrio723), [Júlia Nogales](mailto:julianolo71@gmail.com), [CookieCrushed](mailto:cookiecrushed18@gmail.com), GhettoMonkey, Hector C., Serph, aolryd, and Nerea AguiGar  |
 |  Italian (Italiano)                |  [Gabriele](mailto:we@improve.games), [bembe83](https://github.com/bembe83), [Il Rich](mailto:il.rich@outlook.com), [Simone](mailto:simone.borghi.mk@gmail.com) and Okabe  |
 |  French (Français)                 |  [vgauther](https://github.com/vgauther), [Ins0mniakk](https://github.com/Ins0mniakk), [Saturnin](saturnin@mailibre.fr), [knard](mailto:wotan@knard.be), [savoiet](mailto:savoiet@outlook.com), [Sasha](mailto:valentine.dumetz@hotmail.com), [Tenebrosful](https://github.com/Tenebrosful), [B2-](mailto:blipblapbloup2.mc@gmail.com), Gougnn, Drakyndeon, Forteleone and RomSich  |
-|  German (Deutsch)                  |  [JulianPrieber](https://github.com/JulianPrieber), [Wilms](mailto:philip.jakob.leopold.wilms@gmail.com), [Catdcast3r](mailto:cardcast3r@gmail.com), [fLowBop](mailto:vincentweber1988@gmail.com), [Dominik Ringlhofer](mailto:dominik.ringlhofer@gmx.at), [Rhyodon](https://github.com/Rhyodon), Martin, ash, JRK and Naxras  |
+|  German (Deutsch)                  |  [JulianPrieber](https://github.com/JulianPrieber), [Wilms](mailto:philip.jakob.leopold.wilms@gmail.com), [Catdcast3r](mailto:cardcast3r@gmail.com), [fLowBop](mailto:vincentweber1988@gmail.com), [Dominik Ringlhofer](mailto:dominik.ringlhofer@gmx.at), [Rhyodon](https://github.com/Rhyodon), Martin, ash, JRK, Naxras and avoelpel  |
 |  Czech (Čeština)                   |  [mlynarp](https://github.com/mlynarp) and Netleak  |
 |  Japanese (日本語)                  |  [lill-la](https://github.com/lill-la), [Shun Matsuba](https://x.com/fraulein_trpg), [SaitoJohn](https://github.com/SaitoJohn) and [フロイラ](mailto:matsuba0721.ggl@gmail.com)  |
 |  Dutch (Nederlands)                |  [Disispower](https://github.com/Disispower) and Woodychopper  |
-|  Russian (Русский)                 |  [MarouchX](mailto:noraundyne@gmail.com) and Fedor  |
-|  Traditional Chinese (繁體中文)     |  [Sola](mailto:mages.cauldron@gmail.com)  |
+|  Russian (Русский)                 |  [MarouchX](mailto:noraundyne@gmail.com), [van4](mailto:mr.qqwertyqq@gmail.com), Fedor and IsamiRisha  |
+|  Traditional Chinese (繁體中文)     |  [Sola](mailto:mages.cauldron@gmail.com) and [NK](mailto:nuku910806@gmail.com)  |
 |  Turkish (Türkçe)                  |  [Erozbey](mailto:erozbey1@gmail.com)  |
 |  Korean (한국어)                    |  Hwanya  |
 |  Polish (Polski)                   |  [MaTeoSky](https://github.com/MatteDeb)  |
