@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "D&D Beyond Kit",
+    "description": "Title of the extension"
+  },
+  "choose_language": {
+    "message": "Виберіть мову зі списку нижче:",
+    "description": "Language to be used on the translation"
+  },
+  "choose_language_option": {
+    "message": "Виберіть мову",
+    "description": "Default option of language"
+  },
+  "backToTop": {
+    "message": "Повернутись на гору",
+    "description": "Button to scroll to the top of page"
+  },
+  "convertToSI": {
+    "message": "Перевести одиниці вимірювання в систему СІ",
+    "description": "Toggle the International Metrics System"
+  },
+  "settingsTitle": {
+    "message": "Налаштування",
+    "description": "Title of Settings tab"
+  },
+  "moreSettingsQuestion": {
+    "message": "Потрібні додаткові налаштування? Надішліть запит на GitHub!",
+    "description": "More configurations message to GitHub"
+  },
+  "cleanInterface": {
+    "message": "Приберіть зайві елементи з інтерфейсу",
+    "description": "Remove distractions from the interface"
+  },
+  "likingInterface": {
+    "message": "Мандрівнику, тобі подобається це розширення?",
+    "description": "Question to the user if they like the extension"
+  },
+  "leaveAReview": {
+    "message": "Залиште свій відгук!",
+    "description": "Ask the user to leave a review"
+  },
+  "helpUsTranslating": {
+    "message": "Допоможіть нам перекласти D&D Beyond!",
+    "description": "Help us translating D&D Beyond"
+  }
+}
