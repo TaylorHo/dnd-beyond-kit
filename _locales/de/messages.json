@@ -4,11 +4,11 @@
     "description": "Title of the extension"
   },
   "choose_language": {
-    "message": "Wählen Sie Ihre Sprache aus der Liste unten:",
+    "message": "Wähle deine Sprache aus der folgenden Liste:",
     "description": "Language to be used on the translation"
   },
   "choose_language_option": {
-    "message": "Sprache wählen",
+    "message": "Sprache auswählen",
     "description": "Default option of language"
   },
   "backToTop": {
@@ -24,11 +24,11 @@
     "description": "Title of Settings tab"
   },
   "moreSettingsQuestion": {
-    "message": "Benötigen Sie weitere Einstellungen? Anfrage auf GitHub!",
+    "message": "Brauchst du mehr Einstellungen? Frag auf Github an!",
     "description": "More configurations message to GitHub"
   },
   "cleanInterface": {
-    "message": "Klare Ablenkungen durch die Benutzeroberfläche",
+    "message": "Die Benutzeroberfläche von Ablenkungen befreien.",
     "description": "Remove distractions from the interface"
   },
   "likingInterface": {
