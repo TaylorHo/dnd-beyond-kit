@@ -64,8 +64,7 @@ async function minifyContent() {
 
 function translateTextInElements(parentElement) {
   let elements = getTextNodes(parentElement);
-  const untranslatedContent = [];
-
+  
   elements.forEach(element => {
     // already processed?
     if (element.parentElement?.dataset?.bkDone) return;
@@ -92,6 +91,22 @@ function translateTextInElements(parentElement) {
     // mark so we don't touch it again
     element.parentElement.dataset.bkDone = "1";
   });
+}
+
+function translateTextForInputElements(parentElement) {
+  let elements = getInputElementsWithPlaceholderAttribute(parentElement);
+  console.log(elements)
+  elements.forEach(element => {
+    // already processed?
+    if (element.parentElement?.dataset?.bkDone) return;
+    
+    let originalText = element.placeholder;
+    let translatedString = translateWord(originalText);
+    element.placeholder = translatedString;
+    
+    // mark so we don't touch it again
+    element.parentElement.dataset.bkDone = "1";
+  })
 }
 
 // Replaces dice notation (e.g., 1d4, 2d8) with localized versions
@@ -159,23 +174,31 @@ function getTextNodes(parentElement) {
   return textNodes;
 }
 
+function getInputElementsWithPlaceholderAttribute(parentElement) {
+  return parentElement.querySelectorAll('input[placeholder]')
+}
+
 async function translateContent() {
   const language = await languageOfTheExtension();
   dictionary = await getTranslations(language);
 
   if (dictionary) {
-    translateTextInElements(document.querySelector("main"), dictionary);
+    translateTextInElements(document.querySelector("main"));
+    translateTextForInputElements(document.querySelector("main"));
     localizeDiceNotationInElement(document.querySelector("main"), language);
 
     document.addEventListener('click', function () {
       // Wait some time after click to also translate content after opening the sidebar and after changing tabs
       setTimeout(() => {
         const main = document.querySelector("main");
-        translateTextInElements(main, dictionary);
+        const sidebar = document.querySelector(".ct-sidebar__portal"); // General side menu
+        translateTextInElements(main);
+        translateTextForInputElements(main);
         localizeDiceNotationInElement(main, language);
-        translateTextInElements(document.querySelector(".ct-sidebar__portal"), dictionary); // General side menu
-        translateTextInElements(document.querySelector("dialog"), dictionary); // Mobile menu
-        translateTextInElements(document.querySelector(".fullscreen-modal-overlay"), dictionary); // Character Creator overlays/popups
+        translateTextInElements(sidebar);
+        translateTextForInputElements(sidebar);
+        translateTextInElements(document.querySelector("dialog")); // Mobile menu
+        translateTextInElements(document.querySelector(".fullscreen-modal-overlay")); // Character Creator overlays/popups
       }, 100);
     }, true); // Don't remove this "true"
   }
