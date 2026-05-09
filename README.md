@@ -75,7 +75,7 @@ We use the same `manifest.json` for both platforms.
 |  Traditional Chinese (繁體中文)     |  [Sola](mailto:mages.cauldron@gmail.com) and [Nuku](mailto:nuku910806@gmail.com)  |
 |  Turkish (Türkçe)                  |  [Erozbey](mailto:erozbey1@gmail.com)  |
 |  Korean (한국어)                    |  Hwanya  |
-|  Polish (Polski)                   |  [MaTeoSky](https://github.com/MatteDeb)  |
+|  Polish (Polski)                   |  [MaTeoSky](https://github.com/MatteDeb) and Kamil  |
 |  Ukrainian (Українська)            |  [Naugami](mailto:naugamiyt@gmail.com)  |
 
 ### Thanks
