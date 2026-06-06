@@ -70,7 +70,7 @@ We use the same `manifest.json` for both platforms.
 |  German (Deutsch)                  |  [JulianPrieber](https://github.com/JulianPrieber), [Wilms](mailto:philip.jakob.leopold.wilms@gmail.com), [Catdcast3r](mailto:cardcast3r@gmail.com), [fLowBop](mailto:vincentweber1988@gmail.com), [Dominik Ringlhofer](mailto:dominik.ringlhofer@gmx.at), [Rhyodon](https://github.com/Rhyodon), Martin, ash, JRK, Naxras and avoelpel  |
 |  Czech (Čeština)                   |  [mlynarp](https://github.com/mlynarp) and Netleak  |
 |  Japanese (日本語)                  |  [lill-la](https://github.com/lill-la), [Shun Matsuba](https://x.com/fraulein_trpg), [SaitoJohn](https://github.com/SaitoJohn) and [フロイラ](mailto:matsuba0721.ggl@gmail.com)  |
-|  Dutch (Nederlands)                |  [Disispower](https://github.com/Disispower) and Woodychopper  |
+|  Dutch (Nederlands)                |  [Disispower](https://github.com/Disispower), Woodychopper and Josua Visser  |
 |  Russian (Русский)                 |  [MarouchX](mailto:noraundyne@gmail.com), [van4](mailto:mr.qqwertyqq@gmail.com), Fedor and IsamiRisha  |
 |  Traditional Chinese (繁體中文)     |  [Sola](mailto:mages.cauldron@gmail.com) and [Nuku](mailto:nuku910806@gmail.com)  |
 |  Turkish (Türkçe)                  |  [Erozbey](mailto:erozbey1@gmail.com)  |
